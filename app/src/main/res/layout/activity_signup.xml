@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity"
+    android:background="@color/background_color"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1010dp"
+        android:layout_alignParentTop="true"
+
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="393dp"
+            android:layout_height="182dp"
+            android:layout_marginTop="60dp"
+
+            app:srcCompat="@drawable/notebook" />
+        <EditText
+            android:id="@+id/signup"
+            android:layout_width="383dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:hint="SIGNUP HERE"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:padding="15dp"
+            android:textColorHint="@color/white"
+            android:textSize="34sp" />
+
+
+
+
+        <EditText
+            android:id="@+id/email_input"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_conner"
+            android:drawableLeft="@drawable/email"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:drawablePadding="10dp"
+            android:hint="email"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/username_input"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/rounded_conner"
+            android:drawableLeft="@drawable/person"
+            android:drawablePadding="10dp"
+            android:hint="username"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:inputType="text"
+            android:padding="15dp"
+
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/password_input"
+            android:layout_width="396dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_conner"
+            android:drawableLeft="@drawable/lock"
+            android:drawablePadding="10dp"
+            android:hint="password"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/confirmpassword_input"
+            android:layout_width="398dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_conner"
+            android:drawableLeft="@drawable/lock"
+            android:drawablePadding="10dp"
+            android:hint="Comfirm password"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/sig_button_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_button"
+            android:padding="18dp"
+            android:hint="signup"
+
+            android:textColorHint="@color/white"
+            android:drawableLeft="@drawable/login"
+            android:textSize="20sp"
+            tools:ignore="MissingPrefix" />
+
+        <Switch
+            android:id="@+id/switcher"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="60dp"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:text="Change theme"
+
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:thumbTint="@color/white"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
